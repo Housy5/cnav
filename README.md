@@ -1,55 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cnav - Command Navigator</title>
+</head>
+<body>
+    <h1>cnav - Command Navigator</h1>
+    <p><strong>cnav</strong> is a lightweight CLI tool designed to simplify your workflow by aliasing long, complex, and frequently used commands. With <code>cnav</code>, you can easily create, manage, and use command shortcuts, saving you time and effort.</p>
 
-Here’s the revised README without the installation section:
+    <h2>Features</h2>
+    <ul>
+        <li><strong>Create Aliases:</strong> Replace lengthy commands with simple shortcuts.</li>
+        <li><strong>View Aliases:</strong> Quickly see all your current shortcuts.</li>
+        <li><strong>Manage Aliases:</strong> Remove or clear all aliases as needed.</li>
+        <li><strong>Easy-to-Use Syntax:</strong> Simple commands for everyday convenience.</li>
+    </ul>
 
-cnav - Command Navigator
-cnav is a lightweight CLI tool designed to simplify your workflow by aliasing long, complex, and frequently used commands. With cnav, you can easily create, manage, and use command shortcuts, saving you time and effort.
+    <h2>Usage</h2>
+    <h3>Add a Command Alias</h3>
+    <pre><code>cnav -add &lt;alias&gt; &lt;command&gt;</code></pre>
+    <p>Example:</p>
+    <pre><code>cnav -add ll "ls -la"</code></pre>
 
-Features
-Create Aliases: Replace lengthy commands with simple shortcuts.
-View Aliases: Quickly see all your current shortcuts.
-Manage Aliases: Remove or clear all aliases as needed.
-Easy-to-Use Syntax: Simple commands for everyday convenience.
-Usage
-Add a Command Alias
-bash
-Copy code
-cnav -add <alias> <command>
-Example:
+    <h3>Use a Command Alias</h3>
+    <pre><code>cnav &lt;alias&gt;</code></pre>
+    <p>Example:</p>
+    <pre><code>cnav ll</code></pre>
 
-bash
-Copy code
-cnav -add ll "ls -la"
-Use a Command Alias
-bash
-Copy code
-cnav <alias>
-Example:
+    <h3>List All Aliases</h3>
+    <pre><code>cnav -print</code></pre>
 
-bash
-Copy code
-cnav ll
-List All Aliases
-bash
-Copy code
-cnav -print
-Remove an Alias
-bash
-Copy code
-cnav -rem <alias>
-Example:
+    <h3>Remove an Alias</h3>
+    <pre><code>cnav -rem &lt;alias&gt;</code></pre>
+    <p>Example:</p>
+    <pre><code>cnav -rem ll</code></pre>
 
-bash
-Copy code
-cnav -rem ll
-Clear All Aliases
-bash
-Copy code
-cnav -clear
-Why Choose cnav?
-Do you find yourself repeatedly typing out long, tedious commands? cnav is here to streamline your command-line experience. It’s lightweight, efficient, and simple to use, helping you focus on what really matters.
+    <h3>Clear All Aliases</h3>
+    <pre><code>cnav -clear</code></pre>
 
-Contributing
-We welcome contributions! If you have ideas for improvements or spot any issues, feel free to open an issue or submit a pull request on GitHub.
+    <h2>Why Choose cnav?</h2>
+    <p>Do you find yourself repeatedly typing out long, tedious commands? <strong>cnav</strong> is here to streamline your command-line experience. It’s lightweight, efficient, and simple to use, helping you focus on what really matters.</p>
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+    <h2>Contributing</h2>
+    <p>We welcome contributions! If you have ideas for improvements or spot any issues, feel free to open an issue or submit a pull request on <a href="https://github.com/yourusername/cnav">GitHub</a>.</p>
+
+    <h2>License</h2>
+    <p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
+</body>
+</html>
