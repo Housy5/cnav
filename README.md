@@ -33,10 +33,3 @@
 
 <h2>Why Choose cnav?</h2>
 <p>Do you find yourself repeatedly typing out long, tedious commands? <strong>cnav</strong> is here to streamline your command-line experience. It’s lightweight, efficient, and simple to use, helping you focus on what really matters.</p>
-
-<h2>Contributing</h2>
-<p>We welcome contributions! If you have ideas for improvements or spot any issues, feel free to open an issue or submit a pull request on <a href="https://github.com/yourusername/cnav">GitHub</a>.</p>
-
-<h2>License</h2>
-<p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
-
