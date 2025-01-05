@@ -97,6 +97,7 @@ bool command_list_remove(CommandList* list, Command* target) {
         if (i == j) {
             i++;
             j++;
+            continue;
         }
 
         list->commands[j++] = list->commands[i++];
